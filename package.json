@@ -1,7 +1,7 @@
 {
   "name": "linter-php7cc",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Check for PHP 7 compatibility on the fly, using php7cc",
   "repository": "https://github.com/ManiacTwister/linter-php7cc",
   "license": "MIT",

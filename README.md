@@ -1,5 +1,7 @@
 # linter-php7cc
 
+**Unstable**
+
 PHP 7 Compatibility Checker using [php7cc](https://github.com/sstalle/php7cc) from [sstalle](https://github.com/sstalle)
 
 ## Installation

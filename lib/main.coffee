@@ -14,7 +14,7 @@ module.exports =
       '", please verify that this is the right path to PHP7CC.'
     try
       helpers.exec(@executablePath, ['-V']).then (output) =>
-        regex = /PHP 7 Compatibility Checker version (\d+)\.(\d+)\.(\d+)/g
+        regex = /PHP 7 Compatibility Checker(?: version)? (\d+)\.(\d+)\.(\d+)/gi
         if not regex.exec(output)
           atom.notifications.addError(title, {detail: message})
           @executablePath = ''
